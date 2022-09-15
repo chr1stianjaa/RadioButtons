@@ -23,6 +23,9 @@
             <asp:Button ID="okButton" runat="server" OnClick="okButton_Click" Text="Ok" />
             <br />
             <br />
+            <asp:Image ID="resultImage" runat="server" />
+            <br />
+            <br />
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
         </div>
     </form>

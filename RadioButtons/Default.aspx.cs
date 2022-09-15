@@ -18,28 +18,29 @@ namespace RadioButtons
         {
             if (pencilRadioButton.Checked)
             {
-                resultLabel.Text = "You selected Pencil";
+                resultImage.ImageUrl = "pencil.png";
             }
 
             else if (penRadioButton.Checked)
             {
-                resultLabel.Text = "You selected Pen";
+                resultImage.ImageUrl = "pen.png";
             }
 
             else if (phoneRadioButton.Checked)
             {
-                resultLabel.Text = "You selected Phone";
+                resultImage.ImageUrl = "phone.png";
             }
 
             else if (tabletRadioButton.Checked)
             {
-                resultLabel.Text = "You selected Tablet";
+                resultImage.ImageUrl = "tablet.png";
             }
 
             else
             {
                 resultLabel.Text = "Please select an option";
             }
+
         }
     }
 }

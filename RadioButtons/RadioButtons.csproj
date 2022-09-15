@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="pen.png" />
+    <Content Include="pencil.png" />
+    <Content Include="phone.png" />
+    <Content Include="tablet.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
